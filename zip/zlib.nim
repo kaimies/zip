@@ -11,8 +11,8 @@ else:
 
 type
   Uint* = int32
-  Ulong* = uint32
-  Ulongf* = uint32
+  Ulong* = uint
+  Ulongf* = uint
   Pulongf* = ptr Ulongf
   ZOffT* = int32
   Pbyte* = cstring
